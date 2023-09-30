@@ -1,0 +1,50 @@
+section.Days .container{
+    background-color: #002147;
+    height: 120px;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.403);
+    border-radius: 10px;
+    margin-top: -65px;
+
+}
+section.Days .container .Hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+section.Days .Hours .left_Hours{
+    display: flex;
+    align-items: center;
+}
+section.Days .left_Hours .imgbox{
+    width: 100px;
+    height: 100px;
+}
+section.Days .left_Hours .imgbox img{
+    width: 100px;
+}
+section.Days .left_Hours p{
+    width: 280px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+section.Days .left_Hours strong{
+    color: gold;
+}
+section.Days  .Hours .k{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+section.Days  .Hours .k .right_Hours h3{
+   font-size: 50px;
+   font-weight: bold;
+   color: #F0F4F9
+}
+section.Days  .Hours .k .right_Hours  p{
+    font-size: 12px;
+    color: #F0F4F9;
+}

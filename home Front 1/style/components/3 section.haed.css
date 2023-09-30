@@ -1,0 +1,110 @@
+section.haed{
+    background-color: #F0F4F9;
+    padding: 10px 0 ;
+    
+}
+section.haed .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section.haed .brand{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+section.haed .brand h1{
+    font-size: 24px;
+    color: #002147;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+section.haed .nav-link{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    
+}
+
+section.haed .nav-link a{
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: #002147;
+    transition: 0.5s ease-in;
+    padding: 15px 0;
+    border-bottom: 2px solid transparent;
+}
+section.haed .nav-link a:hover{
+    color:#FDC800 ;
+    border-bottom: 2px solid #FDC800;
+    
+    
+}
+section.haed .nav-aicons{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+section.haed .nav-aicons button.sign{
+    background-color: #FDC800;
+    padding: 6px 13px;
+    border: none;
+    border-radius: 6px;
+    color: #002147;
+    cursor: pointer;
+}
+section.haed .nav-aicons button.sign:hover{
+    background-color: #002147;
+    color: #F0F4F9;
+}
+section.haed .nav-aicons button.serch{
+    padding: 6px 5px;
+    border: none;
+    font-size: 20px;
+    color: #002147;
+    cursor: pointer;
+}
+section.haed .nav-aicons button.serch:hover{
+    color:  #FDC800;
+    
+}
+section.haed .nav-aicons .fa-bars{
+    font-size: 25px;
+    color: #002147;
+    display: none;
+    cursor: pointer;
+}
+section.haed .nav-aicons .fa-bars:hover{
+    color:  #FDC800;
+}
+
+
+
+
+@media (min-width:50px) and (max-width:1260px) {
+    section.haed .brand h1{
+        font-size: 16px;
+         }
+         section.haed .brand img{
+           width: 50px;
+           height: 50px;
+         }
+         section.haed .brand{
+            gap: 0.5rem;
+         }
+       
+    section.haed .nav-aicons .fa-bars{
+        display: inline-block;
+    }
+    section.haed .nav-link a{
+        display: none;
+    }
+    section.haed .nav-aicons button.sign{
+        padding: 6px 2px;
+        width: 50px;
+    }
+}

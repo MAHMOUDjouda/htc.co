@@ -1,0 +1,80 @@
+section.Emil .container{
+    background-color: rgba(255, 0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section.Emil .get{
+    background-color: #e4e9ed00;
+    min-height: 500px;
+    display: flex;
+    
+    align-items: center;
+    gap: 3rem;
+    
+}
+.left_get img{
+    background-color: #00b2b200;
+     min-height: 380px;
+     margin-left: 130px;
+}
+.right_get{
+    background-color: #00b2b200;
+    padding-top: 80px;
+    
+}
+.right_get h5{
+    font-size: 18px ;
+    font-weight: 800;
+    color: #FDC800;
+    margin-bottom: 15px;
+}
+.right_get h2{
+    background-color: #00214700;
+    width: 500px;
+    min-height: 200px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.right_get form{
+   
+  margin-top: -60px;
+  position: relative;
+}
+.right_get form input{
+    width: 600px;
+    min-height: 70px;
+    padding: 0.2rem 4rem;
+   
+    border-color: #bdbdbda8;
+    border-radius: 7px;
+    outline: none;
+}
+.field{
+    position: relative;
+}
+.field form input::placeholder{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+.field i{
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    font-size: 25px;
+}
+.field button{
+    position: absolute;
+    right: 7px;
+    top: 18px;
+    background-color: #FDC800;
+    border: none;
+    padding: 10px 21px;
+    border-radius: 5px;
+}
+.field button:hover{
+    background-color: rgba(253, 198, 0, 0.536);
+}

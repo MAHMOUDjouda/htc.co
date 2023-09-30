@@ -1,0 +1,49 @@
+section.Events{
+    background-color: #F0F4F9;
+    height: 350px;
+    margin-top: 10px;
+    
+    
+    
+    
+}
+section.Events .container{
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 255px;
+}
+
+section.Events .front{
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+}
+.front .events{
+    background-color: #00214700;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-top: 30px
+
+    
+    
+    
+}
+.front .events h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -15px;
+    color: #002147;
+}
+.front .events p{
+    font-size: 13px;
+    color: #00B2B2;
+}
+section.Events .front span{
+    background-color: #00214700;
+    width:600px ;
+    height: 100%;
+
+    position: absolute; 
+    right: 250px;
+    top: 20px;
+}
