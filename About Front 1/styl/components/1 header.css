@@ -1,0 +1,119 @@
+header{
+    background-color: #FDC800;
+    padding: 5px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.communicatio{
+    display: flex;
+    gap: 5rem;
+}
+.communicatio .emil i{
+    color: #000000;
+}
+.communicatio .locain i{
+    color: #000000;
+}
+.emil{
+    display: flex;
+    gap: 0.3rem;
+}
+.locain{
+    display: flex;
+    gap: 0.3rem;
+
+}
+.communicatio p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #212529;
+}
+.communicatio a{
+    font-size: 12px;
+    font-weight: 500;
+    color: #212529;
+}
+.communicatio a:hover{
+    color: #00214775;
+}
+header .container nav{
+    display: flex;
+    gap: 2rem;
+    
+}
+header .container nav i{
+    border: 2px solid #00214700;
+    width: 30px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in;
+}
+header .container nav i:hover{
+    transform: rotate(360deg) scale(1.5);
+    background-color: #002147;
+    color: #FDC800 ;
+    border: 2px solid #F0F4F9;
+}
+
+@media (min-width:50px) and (max-width:992px) {
+    header{
+        
+        padding: 0;
+    }
+    header .container{
+        display: block;
+       
+    }
+    .communicatio{
+        display: block;
+        line-height: 2.5;
+        text-align: center;
+        
+    }
+    .emil{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    .locain{
+        display: flex;
+        align-items: center;  
+        font-size: 12px;  
+    }
+    .communicatio p{
+        font-size: 9px;
+       
+    }
+    .communicatio a{
+        font-size: 9px;
+    }
+    header .container nav{
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 5px;
+        margin-left: -3px;
+        font-size: 12px;
+        
+    }
+    header .container nav i{
+        border: 0.5px solid #00214700;
+        width: 15px;
+        border-radius: 25px;
+        aspect-ratio: 1;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s ease-in;
+    }
+    header .container nav i:hover{
+    
+    border: 1px solid #F0F4F9;
+}
+}
